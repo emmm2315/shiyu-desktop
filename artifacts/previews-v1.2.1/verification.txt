@@ -1,0 +1,63 @@
+已生成：.\时屿-v1.2.1.exe
+PASS defaults and input boundaries
+PASS countdown pause, resume, reset and fractional remainder
+PASS countdown deadline survives relaunch and long sleep
+PASS pomodoro full cycle, manual advance and long break
+PASS pomodoro pause, independent timer and explicit reset
+PASS pause never consumes reminders or another timer's completion
+PASS skip does not count focus and auto advance handles one wake interval
+PASS focus attribution captures selected task and local deadline date
+PASS one off completion counters are idempotent and undo across days
+PASS recurring daily and weekly occurrences complete independently
+PASS timed reminders honor time, completion and persisted dedupe
+PASS recurring reminders refresh daily and one off catches midnight rollover
+PASS per item reminder toggle persists and enables a due reminder once
+PASS persistence restores settings, paused states and task data
+PASS corrupt primary preserves original and recovers valid backup
+PASS corrupt primary without backup uses defaults and preserves original
+PASS save failure preserves in memory timer events and reports retryable error
+All 17 tests passed.
+PASS calendar recurrence crosses month, year and leap day
+PASS future one-off complete and undo preserve today's count
+PASS future recurring undo affects only selected occurrence
+PASS future calendar edit persists date, time and reminder choice
+PASS legacy JSON upgrades glass defaults and preserves editable future items
+PASS daily agenda uses local day at UTC month rollover
+All 6 calendar tests passed.
+PASS actionable plans include overdue one-offs but exclude inactive and completed entries
+PASS quick plans require an explicit estimate within fifteen minutes
+PASS random draw respects normal and quick candidate sets and handles empty lists
+PASS priority selection deduplicates in order and validates atomically
+PASS daily priorities remain isolated and retain completion while cleaning deleted tasks
+PASS quick-note conversion keeps full text and commits note removal with plan creation once
+PASS invalid quick-note conversion leaves original intact and removing notes persists
+PASS next steps are isolated by task and free focus and survive renaming
+PASS important annual dates handle year rollover and February twenty-nine
+PASS reflection and historical statistics stay on the selected day
+PASS extras roundtrip preserves notes priorities details estimates and important dates
+PASS legacy JSON without extras upgrades without changing existing timers and plans
+PASS learning pack creates fourteen tasks across seven calendar days and imports only once
+PASS learning import preserves existing plans and initializes priorities only on empty days
+PASS learning import rejects a date overflow before changing state or saving
+PASS all learning packs have complete daily lessons including fourteen-day OS and algorithm courses
+PASS learning packs deduplicate independently and preserve existing priorities when sharing start dates
+PASS priority edits remove ineligible references while preserving valid history and daily metadata
+All 18 extras tests passed.
+PASS month and daily navigation complete only selected future recurring occurrence
+PASS today list completes overdue one-off with today's statistics
+PASS header footer calendar daily and list hit areas do not overlap
+PASS lottery checkbox selects only explicitly estimated quick actionable plans
+PASS entry dialog refills and saves known and unknown estimated minutes
+PASS untimed daily lessons preserve concept before practice order
+UI flow checks: 6 passed, 0 failed.
+PASS priority / originalTopmost=True
+PASS duration / originalTopmost=True
+PASS pomodoro / originalTopmost=True
+PASS entry / originalTopmost=True
+PASS priority / originalTopmost=False
+PASS duration / originalTopmost=False
+PASS pomodoro / originalTopmost=False
+PASS entry / originalTopmost=False
+PASS actual Pomodoro save then cancel
+PASS native glass ring window
+Dialog layer checks: 10 passed, 0 failed, 0 skipped.

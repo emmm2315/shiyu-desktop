@@ -1,0 +1,4 @@
+GlassActive=True
+WorkingSetMiB=51.4
+PrivateMiB=27.5
+IdleCpuSingleCorePercent=0.16

@@ -1,0 +1,5 @@
+BackgroundAlpha=43
+CardAlpha=77
+ButtonAlpha=86
+OpaqueGlyphPixels=813
+PASS transparent foreground layers and opaque timer glyphs.
